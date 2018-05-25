@@ -22,6 +22,7 @@ public class Application {
 }
 
 //http://localhost:8080/service-instances/eureka.client
+//http://jamesdev:9001/actuator
 @RestController
 class ServiceInstanceRestController {
 	@Autowired
@@ -34,3 +35,6 @@ class ServiceInstanceRestController {
 	}
 	
 }
+
+
+//https://spring.io/guides/gs/service-registration-and-discovery/
